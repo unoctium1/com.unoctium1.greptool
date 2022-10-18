@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="GrepOutputWindow.uss" />
+    <ui:VisualElement name="outputElement" class="outputElement">
+        <ui:Foldout text="Foldout" value="true" name="outputElementFoldout" class="Foldout" />
+        <ui:Button text="Export" display-tooltip-when-elided="true" name="exportBtn" class="exportBtn" />
+    </ui:VisualElement>
+</ui:UXML>

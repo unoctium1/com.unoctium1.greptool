@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="GrepOutputWindow.uss" />
+    <ui:VisualElement style="flex-direction: row; flex-wrap: nowrap;">
+        <ui:TextField picking-mode="Ignore" text="Enter search term... (comma separated for multiple searches)" name="searchField" tooltip="Comma separated for multiple searches" style="flex-grow: 1;" />
+        <ui:Button text="Search" display-tooltip-when-elided="true" name="searchBtn" style="flex-shrink: 1; flex-direction: column;" />
+    </ui:VisualElement>
+    <ui:VisualElement style="flex-shrink: 0; flex-grow: 1;">
+        <ui:Label text="Loading..." display-tooltip-when-elided="true" name="placeholderTxt" style="visibility: visible; display: flex;" />
+        <ui:ScrollView name="contentHolder" show-vertical-scroller="false" style="flex-shrink: 0; flex-grow: 0; height: auto;" />
+    </ui:VisualElement>
+    <ui:VisualElement style="flex-direction: row;">
+        <ui:Button text="Refresh" display-tooltip-when-elided="true" name="refreshBtn" />
+        <ui:VisualElement style="flex-shrink: 0; flex-grow: 1;" />
+        <ui:Button text="Export All" display-tooltip-when-elided="true" name="exportBtn" />
+    </ui:VisualElement>
+</ui:UXML>

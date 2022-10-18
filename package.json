@@ -1,0 +1,25 @@
+{
+  "name": "com.unoctium1.greptool",
+  "version": "1.0.0",
+  "displayName": "Git Grep Tool",
+  "description": "Wrapper for git grep, used for finding references to files across the project",
+  "unity": "2020.3",
+  "unityRelease": "34f1",
+  "dependencies": {
+    "com.unity.ui": "1.0.0-preview.18",
+    "com.unity.ui.builder": "1.0.0-preview.18"
+  },
+  "keywords": [
+    "Git",
+    "grep",
+    "References",
+    "Search",
+    "Editor"
+  ],
+  "author": {
+    "name": "Abel Waller",
+    "email": "unoctium1@gmail.com",
+    "url": "https://github.com/unoctium1"
+  },
+  "type": "tool"
+}
