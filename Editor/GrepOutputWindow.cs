@@ -14,7 +14,7 @@ namespace GrepTool
     {
         private const string CSV_HEADER_ROW = "Search Path,Result Path,Instances Per Result,Full Result\n";
 
-        private const string ROOT_PATH = "Packages/com.promisingpeople.greptool";
+        private const string ROOT_PATH = "Packages/com.unoctium1.greptool";
         
         private const string UXML_PATH =
             ROOT_PATH + "/Editor/Assets/GrepOutputWindow.uxml";
